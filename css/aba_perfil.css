@@ -1,0 +1,127 @@
+
+body {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    padding-bottom: 12vh;
+    padding-top: 13vh;
+}
+
+/* CSS NAV SUPERIOR */
+.navbar-brand > img {
+    width: 35px;
+}
+
+.navbar {
+    background-color: #1D6AB0;
+    height: 13vh;
+    padding: 0 16px;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.nav-link,
+.iconeNav {
+    padding: .75rem 0;
+}
+
+/* CSS Foto da Capa */
+.container-fluid,
+.capa {
+    padding: 0;
+}
+
+.capa img {
+    padding: 0;
+    height: 25vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* CSS Foto do Usuário, Botões e Descrição */
+.usuario {
+    background-color: #FBFBFB;
+    margin: 0 0 10px 0;
+    padding: 0 15px 20px 15px;
+}
+
+.usuario-foto {
+    position: absolute;
+    margin-top:-50px;
+    padding: 0;
+}
+
+.usuario-botoes {
+    padding: 10px 0 10px 0;
+}
+
+.usuario-botoes i {
+    color: #777777;
+}
+
+        /* Área clicável */
+.usuario-botoes a {
+    padding: 15px 15px 15px 15px;
+}
+
+.usuario-local i {
+    margin: 0 0 10px 10px;
+    color: #777777;
+}
+
+.usuario-local,
+.usuario-descricao {
+    padding: 0 15px 0 15px;
+}
+
+/* CSS Registro de Aividades */
+.atividades {
+    background-color: #FBFBFB;
+    padding: 20px 20px 0 20px;
+}
+
+.atividades div {
+    background-color: #FBFBFB;
+}
+
+.card-body {
+    padding: 0 0 0 20px;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+h6 {
+    line-height: 20px;
+    margin: 0 0 0 10px;
+}
+
+/* CSS NAV INFERIOR */
+.nav-inferior {
+    background-color: #ffffff;
+    height: 12vh;
+    padding: 0 10px;
+}
+.nav-inferior a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.selecionado, .ativo i{
+    color: #1D6AB0;
+}
+
+.ativo {
+    border-top: solid #1D6AB0 3px;
+}
