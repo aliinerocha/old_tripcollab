@@ -32,6 +32,15 @@ body {
   color: #ffffff;
 }
 
+.navbar-brand {
+    margin: 0;
+}
+
+.nav-link,
+.iconeNav {
+    padding: .75rem 0;
+}
+
 /* CSS BANNER */
 
 .banner-img {
