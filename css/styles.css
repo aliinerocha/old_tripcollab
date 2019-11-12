@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
     margin:0;
     padding:0;
-    padding-bottom: 8vh;
+    padding-bottom: 7vh;
     overflow-x: hidden;
 }
 /* INICIO DO CSS APLICADO SOMENTE A ABA_MENU */
@@ -124,17 +124,12 @@ body {
 /* CSS NAV INFERIOR */
 .nav-inferior {
   background-color: #ffffff;
-  height: 8vh;
+  height: 7vh;
 }
 .nav-inferior a {
   text-decoration: none;
-  color: inherit;
-  padding: 10px;
-  font-size: 14px;
-}
-
-.selecionado {
-  color: #1d6ab0;
+  color: #7C7C7C;
+  padding: 25px;
 }
 
 .ativo {
