@@ -1,11 +1,16 @@
-body {
-  height: 100%;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 8vh;
+*:focus {
+    box-shadow: 0 0 0 0.1rem #0A3A66 !important;
 }
 
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    padding-bottom: 8vh;
+    overflow-x: hidden;
+}
 /* INICIO DO CSS APLICADO SOMENTE A ABA_MENU */
 
 .nav-item a {
@@ -70,7 +75,11 @@ body {
   color: #ffffff;
 }
 
-/* CSS VIAGEM */
+#comunidade-slider {
+  margin-left: 18vw;
+}
+
+/* CSS CARD VIAGEM */
 
 .filtro .btn {
   background-color: #1d6ab0;
@@ -103,6 +112,12 @@ body {
 .card-img {
   width: 150px;
   height: 150px;
+  object-fit: cover;
+}
+
+.foto-perfil {
+  height: 40px;
+  width: 40px;
   object-fit: cover;
 }
 
