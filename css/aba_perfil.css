@@ -1,13 +1,21 @@
-
 body {
     box-sizing: border-box;
     margin:0;
     padding:0;
     font-family: "Roboto", sans-serif;
     height: 100%;
-    padding-bottom: 12vh;
-    padding-top: 13vh;
+    padding-bottom: 10vh;
 }
+
+/* INICIO DO CSS APLICADO SOMENTE A ABA_MENU */
+.nav-item a {
+    color: #121212;
+  }
+  
+  .iconeNav:hover {
+    color: #ffffff;
+  }
+/* FIM DO CSS APLICADO SOMENTE A ABA_MENU */
 
 /* CSS NAV SUPERIOR */
 .navbar-brand > img {
@@ -16,29 +24,14 @@ body {
 
 .navbar {
     background-color: #1D6AB0;
-    height: 13vh;
-    padding: 0 16px;
+    height: 10vh;
 }
 
 .navbar a {
     color: #ffffff;
 }
 
-.navbar-brand {
-    margin: 0;
-}
-
-.nav-link,
-.iconeNav {
-    padding: .75rem 0;
-}
-
 /* CSS Foto da Capa */
-.container-fluid,
-.capa {
-    padding: 0;
-}
-
 .capa img {
     padding: 0;
     height: 25vh;
@@ -47,58 +40,25 @@ body {
 }
 
 /* CSS Foto do Usuário, Botões e Descrição */
-.usuario {
-    background-color: #FBFBFB;
-    margin: 0 0 10px 0;
-    padding: 0 15px 20px 15px;
-}
-
 .usuario-foto {
     position: absolute;
     margin-top:-50px;
-    padding: 0;
-}
-
-.usuario-botoes {
-    padding: 10px 0 10px 0;
 }
 
 .usuario-botoes i {
-    color: #777777;
+    color: #7C7C7C;
 }
 
-        /* Área clicável */
+    /* Área clicável */
 .usuario-botoes a {
-    padding: 15px 15px 15px 15px;
+    padding: 12px;
 }
 
 .usuario-local i {
-    margin: 0 0 10px 10px;
-    color: #777777;
-}
-
-.usuario-local,
-.usuario-descricao {
-    padding: 0 15px 0 15px;
+    color: #7C7C7C;
 }
 
 /* CSS Registro de Aividades */
-.atividades {
-    background-color: #FBFBFB;
-    padding: 20px 20px 0 20px;
-}
-
-.atividades div {
-    background-color: #FBFBFB;
-}
-
-.card-body {
-    padding: 0 0 0 20px;
-}
-
-.card-text {
-    color: #6c757d;
-}
 
 h6 {
     line-height: 20px;
@@ -108,14 +68,13 @@ h6 {
 /* CSS NAV INFERIOR */
 .nav-inferior {
     background-color: #ffffff;
-    height: 12vh;
-    padding: 0 10px;
+    height: 10vh;
 }
 .nav-inferior a {
     text-decoration: none;
-    color: inherit;
-    padding: 10px 0;
+    color: #7C7C7C;
     font-size: 14px;
+    height: 100%;
 }
 
 .selecionado, .ativo i{
