@@ -17,7 +17,7 @@ body {
   }
 /* FIM DO CSS APLICADO SOMENTE A ABA_MENU */
 
-/* CSS NAV SUPERIOR */
+/* CSS NAV SUPERIOR
 .navbar-brand > img {
     width: 35px;
 }
@@ -29,7 +29,31 @@ body {
 
 .navbar a {
     color: #ffffff;
-}
+} */
+
+/* CSS NAV SUPERIOR  */
+
+.navbar-brand > img {
+    width: 35px;
+  }
+  
+  .navbar {
+    background-color: #1d6ab0;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+  }
+  
+  .navbar-brand {
+      margin: 0;
+  }
+  
+  .nav-link,
+  .iconeNav {
+      padding: .75rem 0;
+  }
+  
 
 /* CSS Foto da Capa */
 .capa img {
