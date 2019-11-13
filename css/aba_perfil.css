@@ -65,7 +65,24 @@ h6 {
     margin: 0 0 0 10px;
 }
 
+
 /* CSS NAV INFERIOR */
+.nav-inferior {
+    background-color: #ffffff;
+    height: 7vh;
+  }
+  .nav-inferior a {
+    text-decoration: none;
+    color: #7C7C7C;
+    padding: 25px;
+  }
+  
+  .ativo {
+    border-top: solid #1d6ab0 3px;
+  }
+
+
+/* CSS NAV INFERIOR
 .nav-inferior {
     background-color: #ffffff;
     height: 10vh;
@@ -83,4 +100,4 @@ h6 {
 
 .ativo {
     border-top: solid #1D6AB0 3px;
-}
+} */
