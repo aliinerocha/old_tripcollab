@@ -109,17 +109,12 @@ body {
 /* CSS NAV INFERIOR */
 .nav-inferior {
   background-color: #ffffff;
-  height: 8vh;
+  height: 7vh;
 }
 .nav-inferior a {
   text-decoration: none;
-  color: inherit;
-  padding: 10px;
-  font-size: 14px;
-}
-
-.selecionado {
-  color: #1d6ab0;
+  color: #7C7C7C;
+  padding: 25px;
 }
 
 .ativo {
