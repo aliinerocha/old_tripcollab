@@ -52,12 +52,17 @@
         <div class="container mb-4">
             <h5>Minhas comunidades</h5>
         </div>
-        <div class=" input-group mb-4 col-10">
+    <div class="d-flex">
+        <div class=" input-group mb-4 mr-3 col-10">
             <input type="text" class="form-control border-0" placeholder="Buscar">
             <div class="input-group-append">
                 <span class="input-group-text border-0"> <i class="material-icons">search</i></span>
             </div>
         </div>
+        <a href="#" class="p-0 m-0"> 
+            <i class="material-icons" style="color:#CFCFCF; font-size: 40px;">add_box</i>
+        </a>
+    </div>
         <div id="comunidade-slider" class="carousel slide container" data-ride="carousel">
                 <div class="carousel-inner">
                 <!-- CARD COMUNIDADES 1 -->
@@ -126,11 +131,16 @@
         <div class="container mb-4">
             <h5>Meus grupos de viagem</h5>
         </div>
-        <div class=" input-group mb-4 col-10">
-            <input type="text" class="form-control border-0" placeholder="Buscar">
-            <div class="input-group-append">
-                <span class="input-group-text border-0"> <i class="material-icons">search</i></span>
+        <div class="d-flex">
+            <div class=" input-group mb-4 mr-3 col-10">
+                <input type="text" class="form-control border-0" placeholder="Buscar">
+                <div class="input-group-append">
+                    <span class="input-group-text border-0"> <i class="material-icons">search</i></span>
+                </div>
             </div>
+            <a href="aba_criarGrupoDeViagem.html" class="p-0 m-0"> 
+                <i class="material-icons" style="color:#CFCFCF; font-size: 40px;">add_box</i>
+            </a>
         </div>
         <div class="container mt-4 pb-2">
             <h6>Visualizar: </h6>
@@ -164,7 +174,7 @@
                         <img class="foto-perfil rounded-circle" src="./img/perfil.3.jpg" alt="foto de perfil do membro">
                     </div>
                 </div>
-            <a href="#" class="text-muted float-right link-detalhes">ver mais detalhes</a>
+            <a href="aba_detalhesDeViagem.html" class="text-muted float-right link-detalhes">ver mais detalhes</a>
             </div>
         </div>
     </section>
@@ -200,13 +210,12 @@
 
     <!-- NAV INFERIOR -->
     <div class="nav-inferior nav fixed-bottom d-flex justify-content-around border-top">
-
-                    <a href="./Linha do tempo e classificação/aba_linhadotempo.html" class="fas fa-atlas fa-lg col-2"></a>
-                    <a href="#" class="far fa-comments fa-lg col-2"></a>
-                    <a href="aba_perfil.html" class="fas fa-home fa-lg col-2"></a>
-                    <a href="aba_comunidade.html" class="fas fa-users fa-lg col-2 ativo"></a>
-                    <a href="#" class="fas fa-search fa-lg col-2"></a>
-        </div>
+        <a href="./Linha do tempo e classificação/aba_linhadotempo.html" class="fas fa-atlas fa-lg col-2"></a>
+        <a href="#" class="far fa-comments fa-lg col-2"></a>
+        <a href="aba_perfil.html" class="fas fa-home fa-lg col-2"></a>
+        <a href="aba_comunidade.html" class="fas fa-users fa-lg col-2 ativo"></a>
+        <a href="#" class="fas fa-search fa-lg col-2"></a>
+    </div>
 </body>
 
 </html>

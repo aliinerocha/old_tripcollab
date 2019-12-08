@@ -224,3 +224,69 @@ body {
   display: flex;
   flex-wrap: nowrap;
 }
+
+/* CSS aba_detalhesDeViagem */
+.titulo_campo {
+  font-weight: bold;
+}
+
+.link {
+  color: #121212;
+}
+
+.link:hover{
+  color: #121212;
+}
+
+/* CSS aba_criarGruposDeViagem */
+.botao {
+  background-color: #1d6ab0;
+  color: #ffffff;
+  border-color: #064c8c;
+}
+.botao:hover {
+  background-color: #1d6ab0;
+  color: #ffffff;
+  border-color: #064c8c;
+}
+
+.botao_atencao {
+  background-color: #CC293B;
+  color:#ffffff;
+  border-color: #A61121;
+}
+
+.botao_atencao:hover {
+  background-color: #CC293B;
+  color:#ffffff;
+  border-color: #A61121;
+}
+
+/* CSS DEFINIR STATUS */
+.overlay {
+  background-color: #ffffff;
+  height: 25vh;
+  width: 70vw;
+}
+
+.tamanhoBotao {
+  width: 300px;
+}
+
+.pai {
+  position: relative;
+  opacity: 0.3;
+}
+
+.filho {
+  position: absolute;
+  top: 350px;
+  left:15%;
+  width: 350px;
+  height: 250px;
+  border: solid 1px #121212;
+}
+
+.close:hover {
+  color: #121212;
+}
